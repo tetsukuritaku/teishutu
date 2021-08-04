@@ -1,4 +1,4 @@
-* 
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -66,10 +66,10 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
-     }
+  }
 
   main {
     width: 100%;
@@ -77,12 +77,15 @@ footer {
   }
 
   .step-box {
-    width: 100%;
+    width: 90%;
+    margin: 0 5% 20px 5%;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 0;
   }
 
   .footer {
     width: 100%;
   }
-}
-
 }
